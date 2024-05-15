@@ -1,0 +1,36 @@
+body{
+    background-color: #5CA1D7;
+    margin: 0 auto;
+    text-align: center;
+}
+header{
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+}
+header h1:hover{
+    color: black;
+}
+.list{
+    color: black;
+    font-weight: bold;
+    display: table;
+    text-align: left;
+    margin: 0 auto;
+    width: 400px;
+}
+main img{
+    width: 200px;
+}
+.quote{
+    color: white;
+    width: 250px;
+    margin: 0 auto;
+    font-size: x-large;
+}
+.copyright{
+    width: 250px;
+    font-size: small;
+    font-weight: bold;
+    margin: 0 auto;
+}
