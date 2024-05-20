@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    background-color: #737373;
+}
+
+main img{
+    width: 100%;
+}
+
+.title{
+    position: relative;
+}
+.position{
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+}
+.name{
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+}
+
+footer div{
+    text-align: center;
+}
+.images img{
+    margin: 4% 2%;
+    border-radius: 50%;
+    width: 25%;
+    border:10px solid black;
+}
