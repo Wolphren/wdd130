@@ -10,16 +10,6 @@ main img{
 .title{
     position: relative;
 }
-.position{
-    position: absolute;
-    bottom: 80px;
-    right: 50px;
-}
-.name{
-    position: absolute;
-    bottom: 25px;
-    right: 50px;
-}
 
 footer div{
     text-align: center;
