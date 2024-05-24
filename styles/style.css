@@ -1,9 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sedan:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #42271C   ;
+    --secondary-color: #43BE7D ;
+    --accent1-color: #AF621C;
+    --accent2-color: white;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Oswald";
+    --paragraph-font: Sedan, sans-serif;
+
+}
+
 body{
     background-color: #42271C;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 #content{
     max-width: 1600px;
     margin: 0 auto;
+}
+h2{
+    margin: 0;
 }
 header{
     background-color: #42271C;
@@ -11,15 +34,20 @@ header{
 .logo{
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px;
+}
 nav a{
     text-align: center;
     color: white;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #42271C;
     color: white;
+    text-decoration: underline;
 }
 #hero-img{
     width: 100%;
@@ -29,6 +57,9 @@ nav a:hover{
 }
 .home-title{
     color: white;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: white;
@@ -37,10 +68,14 @@ h4{
     text-align: center;
 }
 .book, .join{
+    font-family: var(--heading-font);
     background-color: #42271C;
     color: white;
     text-align: center;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #42271C;
@@ -49,25 +84,44 @@ h4{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #background{
     height: 725px;
     background-color: #AF621C;
 }
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
 .msg{
     background-color: #42271C;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: white;
 }
 .msg p{
+    font-family: var(--paragraph-font);
     color: white;
+    padding-bottom: 15px;
+}
+.mountains{
+    margin: 100px 0;
 }
 footer{
     background-color: #42271C;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: white;
@@ -79,4 +133,7 @@ footer a:hover{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
 }
