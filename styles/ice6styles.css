@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    text-align: center;
+    padding: 0;
+
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+    
+}
+.background{
+    width: 100%;
+    background-color: gray;
+    z-index: -1;
+
+}
+.cherry-img{
+    position: absolute;
+    grid-column: 0/1;
+    grid-row: 1;
+    z-index: -1;
+}
+.title{
+    position: absolute;
+    grid-column: 1/3;
+    grid-row: 1;
+    font-size: 125px;
+    color: black;
+    z-index: 1;
+    align-items: start;
+    justify-items: center;
+}
+.subtitle{
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 75px;
+    color: red;
+
+}
