@@ -142,11 +142,13 @@ main section img{
     grid-column: 8-10;
     grid-row: 2-3;
 }
+
 .card-img{
     border: 10px solid black;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
 .card-img, .mountains{
     width: 100%;
 }
@@ -194,6 +196,10 @@ footer p a:hover{
 }
 footer .social img{
     padding-top: 15px;
+}
+
+.pg-two-img{
+    width: 45%;
 }
 
 @media screen and (max-width: 900px) {
